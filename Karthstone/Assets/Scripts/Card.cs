@@ -9,19 +9,10 @@ public abstract class Card : MonoBehaviour
 
     public int Manacost;
     public Sprite Portrait;
-    public Color Rarity; // Class?
+    //public Color Rarity; // Class?
     public string Title;
     public string Description;
-
-    private void Update()
-    {
-        
-    }
-
-
-
-
-
+    
 
 
     protected Card(int m, Sprite p, string t, string d )
